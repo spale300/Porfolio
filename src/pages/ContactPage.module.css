@@ -1,0 +1,12 @@
+.color {
+  background-color: #b1afff;
+  /* background-color: #ffc93c; */
+  height: 100vh;
+}
+
+@media only screen and (max-width: 1250px) {
+  .color {
+    background-color: red;
+    height: 100%;
+  }
+}
