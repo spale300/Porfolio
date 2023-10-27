@@ -50,7 +50,7 @@ a:hover {
 .nav {
   display: flex;
   /* letter-spacing: 6px; */
-
+  width: 100%;
   align-items: center;
   justify-content: space-between;
 
@@ -290,6 +290,7 @@ h3 {
 
 .footer a {
   color: #fffdee;
+  /* margin: auto; */
 }
 .footer a:hover {
   color: #191916;
@@ -637,6 +638,10 @@ strong a:hover {
     margin-top: 30px;
   }
 
+  .tech {
+    padding: 10px;
+  }
+
   .footer {
     font-size: 12px;
     /* margin-top: 20px; */
@@ -663,6 +668,10 @@ strong a:hover {
 }
 
 @media only screen and (max-width: 1250px) {
+  .container {
+    width: 95%;
+  }
+
   .home {
     flex-direction: column;
     padding: 20px;
@@ -695,11 +704,27 @@ strong a:hover {
   }
 }
 
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 90%;
+  }
+
+  .info-text {
+    padding: 30px;
+  }
+  .info-links {
+    padding: 4px;
+    margin-top: 20px;
+  }
+
+  .tech img {
+    width: 310px;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .container {
-    /* margin-top: 134px; */
-    /* background-color: #26577c; */
-    padding-top: 50px;
+    width: 80%;
   }
 
   .main {
@@ -752,17 +777,87 @@ strong a:hover {
     font-size: 18px;
     padding: 10px;
   }
+
+  .skills {
+    width: 100%;
+  }
+
+  .tech img {
+    display: none;
+  }
+
+  .social img {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .container {
+    width: 90%;
+  }
+
+  .home p {
+    margin-bottom: 10px;
+  }
+
+  .text p {
+    background-color: #fffdee;
+    /* padding: 20px; */
+    font-size: 14px;
+    line-height: 18px;
+    border-radius: 6px;
+  }
+
+  .main {
+    background-color: #fffdee;
+    padding: 20px;
+    border-radius: 6px;
+  }
+
+  .nav ul {
+    gap: 40px;
+  }
+
+  .nav li {
+    margin-right: 30px;
+  }
+
+  .info-text h3 {
+    font-size: 42px;
+    line-height: 34px;
+  }
+
+  .footer {
+    font-size: 8px;
+  }
 }
 
 @media only screen and (max-width: 375px) {
   .container {
     height: auto;
+    width: 90%;
 
     padding-top: 50px;
   }
 
   .logo img {
     width: 170px;
+  }
+
+  .nav ul {
+    gap: 100px;
+  }
+
+  .nav li {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+  }
+
+  .active {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
   }
 
   .home h1 {
@@ -772,12 +867,17 @@ strong a:hover {
   }
 
   .home img {
-    width: 300px;
+    width: 250px;
   }
 
   .home p {
-    font-size: 30px;
+    font-size: 36px;
     margin-bottom: 30px;
+    line-height: 42px;
+  }
+
+  .footer {
+    font-size: 18px;
   }
 
   .project img {
@@ -805,5 +905,32 @@ strong a:hover {
     line-height: 28px;
     padding: 20px;
     /* font-weight: normal; */
+  }
+
+  .skills {
+    gap: 20px;
+  }
+
+  .info-text a {
+    font-size: 32px;
+    padding: 20px;
+  }
+
+  .info-text h3 {
+    font-size: 82px;
+    line-height: 74px;
+  }
+
+  .info-text p {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .social {
+    gap: 50px;
+  }
+
+  .social a img {
+    width: 100px;
   }
 }

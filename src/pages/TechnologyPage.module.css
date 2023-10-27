@@ -2,3 +2,21 @@
   background-color: #ffc93c;
   height: 100vh;
 }
+
+@media only screen and (max-width: 768px) {
+  .color {
+    height: 100vh;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .color {
+    height: 120vh;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .color {
+    height: 208vh;
+    width: 100vh;
+  }
+}

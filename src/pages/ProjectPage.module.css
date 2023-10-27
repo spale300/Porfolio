@@ -4,19 +4,35 @@
   height: 100vh;
 }
 
+@media only screen and (max-width: 1700px) {
+  .color {
+    height: 160vh;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  .color {
+    height: 170vh;
+  }
+}
 @media only screen and (max-width: 1024px) {
   .color {
-    height: 205vh;
+    height: 180vh;
   }
 }
 @media only screen and (max-width: 768px) {
   .color {
-    height: 340vh;
+    height: 350vh;
   }
 }
+@media only screen and (max-width: 450px) {
+  .color {
+    height: 420vh;
+  }
+}
+
 @media only screen and (max-width: 375px) {
   .color {
-    height: 575vh;
+    height: 530vh;
     width: 100vh;
   }
 }
