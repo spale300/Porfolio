@@ -1,12 +1,17 @@
 .color {
   background-color: #b1afff;
-  /* background-color: #ffc93c; */
   height: 100vh;
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 450px) {
   .color {
-    background-color: red;
-    height: 100%;
+    height: 133vh;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .color {
+    height: 210vh;
+    width: 100vh;
   }
 }

@@ -27,7 +27,13 @@ function ProjectPage() {
               secure user authentication methods to safeguard user data and
               privacy, enhancing the app's reliability.
             </p>
-            <a>Check it Out</a>
+            <a
+              href="https://sschat.netlify.app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Check it Out
+            </a>
           </div>
           <div className="project">
             <img src={movie} alt="slika" />
@@ -39,7 +45,13 @@ function ProjectPage() {
               beautifully combines user-centric design with real-time movie data
               from a reliable API source.
             </p>
-            <a>Check it Out</a>
+            <a
+              href="https://movie-search-v2.netlify.app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Check it Out
+            </a>
           </div>
           <div className="project">
             <img src={movietwo} alt="slika" />
@@ -51,7 +63,13 @@ function ProjectPage() {
               technology and entertainment, offering users a rich and
               interactive cinematic experience.
             </p>
-            <a>Check it Out</a>
+            <a
+              href="https://movie-search-v2.netlify.app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Check it Out
+            </a>
           </div>
           <div className="project">
             <img src={quiz} alt="slika" />
@@ -65,7 +83,13 @@ function ProjectPage() {
               This project demonstrates the fusion of state-of-the-art
               technology and the joy of learning through interactive quizzes.
             </p>
-            <a>Check it Out</a>
+            <a
+              href="https://react-quiz-medium.netlify.app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Check it Out
+            </a>
           </div>
           <div className="project">
             <img src={web} alt="slika" />
@@ -78,7 +102,13 @@ function ProjectPage() {
               showcases my dedication to crafting a compelling online presence
               for businesses.
             </p>
-            <a>Check it Out</a>
+            <a
+              href="https://apex2211.netlify.app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Check it Out
+            </a>
           </div>
           {/* <div className="project">
             <img src={chat} alt="slika" />
@@ -89,10 +119,16 @@ function ProjectPage() {
         <p className="github">
           In addition to the projects highlighted here, I invite you to delve
           deeper into my portfolio by visiting my{" "}
-          <a href="https://github.com/spale300">GitHub</a> profile. There,
-          you'll find an array of diverse projects and code repositories that
-          further showcase my skills, dedication, and passion for web
-          development.
+          <a
+            href="https://github.com/spale300"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>{" "}
+          profile. There, you'll find an array of diverse projects and code
+          repositories that further showcase my skills, dedication, and passion
+          for web development.
         </p>
       </Container>
     </div>

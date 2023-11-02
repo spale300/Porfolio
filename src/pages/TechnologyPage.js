@@ -6,6 +6,7 @@ import mail from "../components/email.svg";
 import git from "../components/github.png";
 import insta from "../components/insta.png";
 import linkedin from "../components/linkedin2.svg";
+import cv from "../components/StefanSpasicCV.pdf";
 
 function TechnologyPage() {
   return (
@@ -74,23 +75,39 @@ function TechnologyPage() {
                 possibilities for collaboration and mutual growth.
               </p>
 
-              <a href="test_file.zip" download className="download">
+              <a href={cv} download="Stefan Spasic CV" className="download">
                 Download CV
               </a>
             </div>
             <div className="info-links">
               <div className="social">
-                <a>
-                  <img src={mail} />
+                <a
+                  href="mailto: spalee300@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={mail} alt="mail" />
                 </a>
-                <a>
-                  <img src={linkedin} />
+                <a
+                  href="https://www.linkedin.com/in/stefan-spasic-765925260/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={linkedin} alt="linkedin" />
                 </a>
-                <a>
-                  <img src={git} />
+                <a
+                  href="https://github.com/spale300"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={git} alt="github" />
                 </a>
-                <a>
-                  <img src={insta} />
+                <a
+                  href="https://www.instagram.com/spaladin1/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={insta} alt="insta" />
                 </a>
               </div>
             </div>

@@ -1,5 +1,4 @@
 .color {
-  /* background-color: #79ac78; */
   background-color: #79ac78;
   height: 100vh;
 }
@@ -16,7 +15,7 @@
 }
 @media only screen and (max-width: 1024px) {
   .color {
-    height: 180vh;
+    height: 185vh;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -26,7 +25,7 @@
 }
 @media only screen and (max-width: 450px) {
   .color {
-    height: 420vh;
+    height: 405vh;
   }
 }
 
