@@ -6,7 +6,7 @@ import mail from "../components/email.svg";
 import git from "../components/github.png";
 import insta from "../components/insta.png";
 import linkedin from "../components/linkedin2.svg";
-import cv from "../components/StefanSpasicCV.pdf";
+import cv from "../components/CV.pdf";
 
 function TechnologyPage() {
   return (
