@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import ContactPage from "./pages/ContactPage";
 import TechnologyPage from "./pages/TechnologyPage";
@@ -19,7 +19,7 @@ function App() {
           <Route path="technology" element={<TechnologyPage />} />
           <Route path="project" element={<ProjectPage />} />
           <Route path="contact" element={<ContactPage />}>
-            <Route index element={<ItBootcamp />} />
+            <Route index element={<Navigate to="itbootcamp" replace />} />
             <Route path="itbootcamp" element={<ItBootcamp />} />
             <Route path="trucking" element={<Trucking />} />
             <Route path="english" element={<English />} />
