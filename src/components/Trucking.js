@@ -8,7 +8,7 @@ function Trucking() {
         <p>
           During my tenure at{" "}
           <strong>
-            <a>Connect Freight</a>
+            <a href="https://connectfreight.net/">Connect Freight</a>
           </strong>
           , I was responsible for overseeing and optimizing various aspects of
           our trucking operations.
