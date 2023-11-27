@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import Slogo from "./logo.png";
-import Header from "./Header";
 
 function Logo() {
   return (
@@ -8,7 +7,6 @@ function Logo() {
       <Link to="/">
         <img src={Slogo} alt="#" />
       </Link>
-      {/* <Header /> */}
     </div>
   );
 }

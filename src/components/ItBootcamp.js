@@ -8,7 +8,7 @@ function ItBootcamp() {
         <p>
           My experience in an{" "}
           <strong>
-            <a>IT Bootcamp</a>
+            <a href="https://itbootcamp.rs/">IT Bootcamp</a>
           </strong>{" "}
           closely resembled embarking on an intensive retraining journey. It was
           a period marked by fierce competition and an exacting selection

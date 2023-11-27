@@ -16,7 +16,7 @@ function AppNav() {
           <NavLink to="/project" name="project"></NavLink>
         </li>
         <li>
-          <NavLink to="/technology" name="stefan"></NavLink>
+          <NavLink to="/technology" name="technology"></NavLink>
         </li>
       </ul>
     </nav>
